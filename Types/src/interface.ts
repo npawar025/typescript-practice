@@ -10,12 +10,12 @@
 // const pt: Point = {x: 213, y:12}
 
 // Point using an INTERFACE:
-interface Point {
+interface NewPoint {
   x: number;
   y: number;
 }
 
-const pt: Point = { x: 123, y: 1234 };
+const pt: NewPoint = { x: 123, y: 1234 };
 
 interface Person {
   readonly id: number;
